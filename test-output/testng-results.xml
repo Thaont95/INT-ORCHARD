@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orchard demo" duration-ms="30151" started-at="2019-12-15T15:22:32Z" finished-at="2019-12-15T15:23:02Z">
+    <groups>
+    </groups>
+    <test name="Run on Firefox" duration-ms="18162" started-at="2019-12-15T15:22:32Z" finished-at="2019-12-15T15:22:50Z">
+      <class name="com.orchard.merchant.merchant_01_ValidateLoginForm">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.orchard.merchant.merchant_01_ValidateLoginForm@c39f790]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-12-15T22:22:50Z" finished-at="2019-12-15T22:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.orchard.merchant.merchant_01_ValidateLoginForm@c39f790]" name="f" duration-ms="1" started-at="2019-12-15T22:22:50Z" finished-at="2019-12-15T22:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.orchard.merchant.merchant_01_ValidateLoginForm@c39f790]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-12-15T22:22:50Z" finished-at="2019-12-15T22:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.orchard.merchant.merchant_01_ValidateLoginForm -->
+      <class name="com.orchard.merchant.merchant_01_Login">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.orchard.merchant.merchant_01_Login@224aed64]" name="beforeClass" is-config="true" duration-ms="15557" started-at="2019-12-15T22:22:32Z" finished-at="2019-12-15T22:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_LoginWithEmailCorrect()[pri:0, instance:com.orchard.merchant.merchant_01_Login@224aed64]" name="TC_01_LoginWithEmailCorrect" duration-ms="1803" started-at="2019-12-15T22:22:47Z" finished-at="2019-12-15T22:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginWithEmailCorrect -->
+        <test-method status="PASS" signature="TC_01_LoginWithEmailIncorrect()[pri:0, instance:com.orchard.merchant.merchant_01_Login@224aed64]" name="TC_01_LoginWithEmailIncorrect" duration-ms="0" started-at="2019-12-15T22:22:49Z" finished-at="2019-12-15T22:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginWithEmailIncorrect -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.orchard.merchant.merchant_01_Login@224aed64]" name="afterClass" is-config="true" duration-ms="777" started-at="2019-12-15T22:22:49Z" finished-at="2019-12-15T22:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.orchard.merchant.merchant_01_Login -->
+    </test> <!-- Run on Firefox -->
+    <test name="Run on Chrome" duration-ms="11931" started-at="2019-12-15T15:22:50Z" finished-at="2019-12-15T15:23:02Z">
+      <class name="com.orchard.merchant.merchant_01_Login">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.orchard.merchant.merchant_01_Login@445b84c0]" name="beforeClass" is-config="true" duration-ms="9537" started-at="2019-12-15T22:22:50Z" finished-at="2019-12-15T22:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_LoginWithEmailCorrect()[pri:0, instance:com.orchard.merchant.merchant_01_Login@445b84c0]" name="TC_01_LoginWithEmailCorrect" duration-ms="1848" started-at="2019-12-15T22:22:59Z" finished-at="2019-12-15T22:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginWithEmailCorrect -->
+        <test-method status="PASS" signature="TC_01_LoginWithEmailIncorrect()[pri:0, instance:com.orchard.merchant.merchant_01_Login@445b84c0]" name="TC_01_LoginWithEmailIncorrect" duration-ms="1" started-at="2019-12-15T22:23:01Z" finished-at="2019-12-15T22:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_LoginWithEmailIncorrect -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.orchard.merchant.merchant_01_Login@445b84c0]" name="afterClass" is-config="true" duration-ms="543" started-at="2019-12-15T22:23:01Z" finished-at="2019-12-15T22:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.orchard.merchant.merchant_01_Login -->
+    </test> <!-- Run on Chrome -->
+  </suite> <!-- Orchard demo -->
+</testng-results>
