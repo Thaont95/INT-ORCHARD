@@ -1,5 +1,11 @@
 package page.objects;
 
-public class LoginPageObject {
+import org.openqa.selenium.WebDriver;
 
+import commons.AbstractPage;
+
+public class LoginPageObject extends AbstractPage {
+ WebDriver driver;
+ 
+	
 }
